@@ -12,6 +12,7 @@ def isValidSubsequence(array, sequence):
 
 # Notes:
 # - O(n) time | O(1) space - where n is the length of the array 
+# -- You only need to iterate through each list once
 # - The goal of the problen is to return True or False
 # -- determine the minimal condition(s) for returning True/False: 
 #    when you have matched all elements in with elements in array
