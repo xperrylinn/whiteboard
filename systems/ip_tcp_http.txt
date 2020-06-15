@@ -1,0 +1,8 @@
+IP: packets of info, contains a header section and a data section. Fixed size, 2^16 bytes
+
+TCP: wrapper around, IP allowing you to send more than 2^16 bytes of info. Has additional header section with position of packet.
+
+HTTP: request, respose of objects. Request methods: POST, GET, DELETE, etc...
+
+IP/TCP vs. HTTP: IP/TCP is works by transmitting data, HTTP introduces the opportunity to introduces
+a lot more buisness logic
